@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title> Laboratorian Foodmap </title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5U0DKfR8mPeKc48-MyBhiQDu8OYmDZwY&libraries=places" async
+	 defer></script>
+
+</head>
+
+<body onload="startGoogleMap()">
+	<div class="top-bar" id="top-bar">
+		<a id="title-nav" class="active"> Foodmap </a>
+	</div>
+
+	<div class="w3-col m12">
+		<div class="w3-margin">
+			</nav>
+			<br>
+			<div id="map">
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="w3-row">
+		<div id="col1" class="w3-col m12">
+			<div class="w3-margin">
+				<br>
+				<input id="search-restaurant" class="search" placeholder="Escribe el nombre de tu restaurant favorito"> </input>
+				<div id="card-restaurant"></div>
+				<div id="modal" class="w3-modal">
+					<div class="w3-modal-content">
+						<div class="w3-container">
+							<span id="x" class="w3-button w3-display-topright">&times;</span>
+							<div id="cardModal"></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
+</body>
+
+</html>
