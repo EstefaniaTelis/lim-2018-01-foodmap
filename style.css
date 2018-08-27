@@ -24,9 +24,6 @@ font-size: 15px;
 cursor:pointer;
 }
 
-.topnav .icon {
-    display: none;
-    }
 
 #title-nav {
 font-family: 'Oswald', black;
@@ -46,9 +43,9 @@ margin-left:10px;
 
 .search {
     font-size: 18px;
-    width:92%;
+    width:100%;
     border-radius:3px;
-    height:40px;  
+    height:35px;  
 }
 
 .buttonInfo {
